@@ -127,8 +127,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Name m kya rakkha h. tum kam pe dhyan do.", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bot k bacche") || (event.body.toLowerCase() == "bot ke bacche")) {
-     return api.sendMessage("️meri baccha toh Tumhare Pet Me Hai.", threadID);
+   if ((event.body.toLowerCase() == "mano") || (event.body.toLowerCase() == "bot ke bacche")) {
+     return api.sendMessage("️mano tere mast mast do nain mere dil ka le gye chain🙈", threadID);
    };
 
    if ((event.body.toLowerCase() == "pic do") || (event.body.toLowerCase() == "photo do")) {
