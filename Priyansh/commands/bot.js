@@ -24,12 +24,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Hmm... Tu Chutiya PhLe Ungli Kyun Ki Chomu 😾", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Armaan Ali") || (event.body.toLowerCase() == "@Armaan Ali fasadi")) {
-     return api.sendMessage("janu ke joty chappal kha raha hoga mat bulao use janu me hu na 😝", threadID);
+   if ((event.body.toLowerCase() == "bot mishu ki shadi kab hogi") || (event.body.toLowerCase() == "mishu ki shadi kab hogi")) {
+     return api.sendMessage("mishu ki shadi 2030 me hogi  ", threadID);
    };
 
-    if ((event.body.toLowerCase() == "🤗") || (event.body.toLowerCase() == "🤗")) {
-     return api.sendMessage("Hug me baby ☺️", threadID);
+    if ((event.body.toLowerCase() == "bot mano ki shadi kab hogi") || (event.body.toLowerCase() == "mano ki shadi kab hogi ")) {
+     return api.sendMessage("mano ki shadi 2050 me hogi", threadID);
    };
 
    if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
